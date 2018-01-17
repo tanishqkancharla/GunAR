@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		085BF9992004FCF7008F3460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085BF9982004FCF7008F3460 /* AppDelegate.swift */; };
-		085BF99B2004FCF7008F3460 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085BF99A2004FCF7008F3460 /* ViewController.swift */; };
+		085BF99B2004FCF7008F3460 /* CameraSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085BF99A2004FCF7008F3460 /* CameraSceneViewController.swift */; };
 		085BF99E2004FCF7008F3460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085BF99C2004FCF7008F3460 /* Main.storyboard */; };
 		085BF9A02004FCF7008F3460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 085BF99F2004FCF7008F3460 /* Assets.xcassets */; };
 		085BF9A32004FCF7008F3460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085BF9A12004FCF7008F3460 /* LaunchScreen.storyboard */; };
 		085BF9AE2004FCF7008F3460 /* GunARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085BF9AD2004FCF7008F3460 /* GunARTests.swift */; };
+		085BF9B920053A3F008F3460 /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085BF9B820053A3F008F3460 /* StartingViewController.swift */; };
+		085BF9BD20086E33008F3460 /* PeripheralListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085BF9BC20086E33008F3460 /* PeripheralListViewController.swift */; };
+		08DA5C5C20093D21008332F0 /* PeripheralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DA5C5B20093D21008332F0 /* PeripheralTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +31,7 @@
 /* Begin PBXFileReference section */
 		085BF9952004FCF7008F3460 /* GunAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GunAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		085BF9982004FCF7008F3460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		085BF99A2004FCF7008F3460 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		085BF99A2004FCF7008F3460 /* CameraSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSceneViewController.swift; sourceTree = "<group>"; };
 		085BF99D2004FCF7008F3460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		085BF99F2004FCF7008F3460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		085BF9A22004FCF7008F3460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +39,9 @@
 		085BF9A92004FCF7008F3460 /* GunARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GunARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		085BF9AD2004FCF7008F3460 /* GunARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunARTests.swift; sourceTree = "<group>"; };
 		085BF9AF2004FCF7008F3460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		085BF9B820053A3F008F3460 /* StartingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingViewController.swift; sourceTree = "<group>"; };
+		085BF9BC20086E33008F3460 /* PeripheralListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralListViewController.swift; sourceTree = "<group>"; };
+		08DA5C5B20093D21008332F0 /* PeripheralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				085BF9982004FCF7008F3460 /* AppDelegate.swift */,
-				085BF99A2004FCF7008F3460 /* ViewController.swift */,
+				08DA5C5B20093D21008332F0 /* PeripheralTableViewCell.swift */,
+				085BF9BC20086E33008F3460 /* PeripheralListViewController.swift */,
+				085BF99A2004FCF7008F3460 /* CameraSceneViewController.swift */,
+				085BF9B820053A3F008F3460 /* StartingViewController.swift */,
 				085BF99C2004FCF7008F3460 /* Main.storyboard */,
 				085BF99F2004FCF7008F3460 /* Assets.xcassets */,
 				085BF9A12004FCF7008F3460 /* LaunchScreen.storyboard */,
@@ -199,8 +208,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				085BF99B2004FCF7008F3460 /* ViewController.swift in Sources */,
+				085BF99B2004FCF7008F3460 /* CameraSceneViewController.swift in Sources */,
+				085BF9B920053A3F008F3460 /* StartingViewController.swift in Sources */,
 				085BF9992004FCF7008F3460 /* AppDelegate.swift in Sources */,
+				08DA5C5C20093D21008332F0 /* PeripheralTableViewCell.swift in Sources */,
+				085BF9BD20086E33008F3460 /* PeripheralListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
