@@ -2,4 +2,54 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GunAR/CameraSceneViewController.swift"
+            timestampString = "538103283.580981"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_326FF8BC10B72D47BEEAD68EC7B9C942_func0"
+                  moduleName = "GunAR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tanishq/Documents/College/Xcode/GunAR/GunAR/CameraSceneViewController.swift"
+                  timestampString = "538103192.086534"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GunAR.cropRect.unsafeMutableAddressor : __C.CGRect"
+                  moduleName = "GunAR"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tanishq/Documents/College/Xcode/GunAR/GunAR/CameraSceneViewController.swift"
+                  timestampString = "538103192.089449"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

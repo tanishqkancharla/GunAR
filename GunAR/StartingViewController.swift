@@ -10,9 +10,15 @@ import Foundation
 import UIKit
 
 
-class StartingViewController: UIViewController {
+
+class StartingViewController: UIViewController, UIPickerViewDelegate {
+    
+    func numberOfComponents(in: UIPickerView){
+       
+    }
     
     
+    @IBOutlet weak var numberOfPlayersLabel: UIPickerView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +28,11 @@ class StartingViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    
+    @IBAction func numberOfPlayersChosen(_ sender: Any) {
+        
     }
     
     

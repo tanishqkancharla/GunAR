@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		081D9B7B2011B3B600639667 /* SinglePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081D9B7A2011B3B600639667 /* SinglePlayer.swift */; };
+		081D9B802011B54000639667 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 081D9B7F2011B54000639667 /* Classes */; };
+		081D9B8620126E4B00639667 /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081D9B8520126E4B00639667 /* GameHelper.swift */; };
+		081D9B8820126F6000639667 /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081D9B8720126F6000639667 /* Target.swift */; };
+		081D9B8A20126F6200639667 /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081D9B8920126F6200639667 /* Bullet.swift */; };
 		085BF9992004FCF7008F3460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085BF9982004FCF7008F3460 /* AppDelegate.swift */; };
 		085BF99B2004FCF7008F3460 /* CameraSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085BF99A2004FCF7008F3460 /* CameraSceneViewController.swift */; };
 		085BF99E2004FCF7008F3460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085BF99C2004FCF7008F3460 /* Main.storyboard */; };
@@ -16,6 +21,8 @@
 		085BF9B920053A3F008F3460 /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085BF9B820053A3F008F3460 /* StartingViewController.swift */; };
 		085BF9BD20086E33008F3460 /* PeripheralListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085BF9BC20086E33008F3460 /* PeripheralListViewController.swift */; };
 		08DA5C5C20093D21008332F0 /* PeripheralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DA5C5B20093D21008332F0 /* PeripheralTableViewCell.swift */; };
+		08DA5C8D201034EF008332F0 /* UIImageColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DA5C8C201034EF008332F0 /* UIImageColors.swift */; };
+		08DA5C9220105628008332F0 /* ColorsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DA5C9120105628008332F0 /* ColorsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		081D9B7A2011B3B600639667 /* SinglePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SinglePlayer.swift; path = /Users/Tanishq/Documents/College/Xcode/GunAR/GunAR/SinglePlayer.swift; sourceTree = "<absolute>"; };
+		081D9B7F2011B54000639667 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Classes; path = "GunAR-SinglePlayer/GunAR/GunAR/Classes"; sourceTree = SOURCE_ROOT; };
+		081D9B8520126E4B00639667 /* GameHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameHelper.swift; path = /Users/Tanishq/Documents/College/Xcode/GunAR/GunAR/GameHelper.swift; sourceTree = "<absolute>"; };
+		081D9B8720126F6000639667 /* Target.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
+		081D9B8920126F6200639667 /* Bullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
 		085BF9952004FCF7008F3460 /* GunAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GunAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		085BF9982004FCF7008F3460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		085BF99A2004FCF7008F3460 /* CameraSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSceneViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +54,34 @@
 		085BF9B820053A3F008F3460 /* StartingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingViewController.swift; sourceTree = "<group>"; };
 		085BF9BC20086E33008F3460 /* PeripheralListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralListViewController.swift; sourceTree = "<group>"; };
 		08DA5C5B20093D21008332F0 /* PeripheralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralTableViewCell.swift; sourceTree = "<group>"; };
+		08DA5C6E20102CF7008332F0 /* LBGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBGradient.h; sourceTree = "<group>"; };
+		08DA5C6F20102CF7008332F0 /* ColorArt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorArt-Prefix.pch"; sourceTree = "<group>"; };
+		08DA5C7120102CF7008332F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08DA5C7320102CF7008332F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		08DA5C7520102CF7008332F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		08DA5C7620102CF7008332F0 /* CAViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CAViewController.xib; sourceTree = "<group>"; };
+		08DA5C7720102CF7008332F0 /* coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffee.png; sourceTree = "<group>"; };
+		08DA5C7920102CF7008332F0 /* UIImage+Scale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		08DA5C7A20102CF7008332F0 /* UIImage+ColorArt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorArt.h"; sourceTree = "<group>"; };
+		08DA5C7B20102CF7008332F0 /* SLColorArt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLColorArt.h; sourceTree = "<group>"; };
+		08DA5C7C20102CF7008332F0 /* UIImage+Scale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
+		08DA5C7D20102CF7008332F0 /* UIImage+ColorArt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorArt.m"; sourceTree = "<group>"; };
+		08DA5C7E20102CF7008332F0 /* SLColorArt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLColorArt.m; sourceTree = "<group>"; };
+		08DA5C7F20102CF7008332F0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		08DA5C8020102CF7008332F0 /* CAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAViewController.m; sourceTree = "<group>"; };
+		08DA5C8120102CF7008332F0 /* CAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAAppDelegate.h; sourceTree = "<group>"; };
+		08DA5C8220102CF7008332F0 /* PCFadedImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCFadedImageView.m; sourceTree = "<group>"; };
+		08DA5C8320102CF7008332F0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		08DA5C8420102CF7008332F0 /* LBGradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBGradient.m; sourceTree = "<group>"; };
+		08DA5C8520102CF7008332F0 /* ColorArt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorArt-Info.plist"; sourceTree = "<group>"; };
+		08DA5C8620102CF7008332F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08DA5C8720102CF7008332F0 /* DSC_0062.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC_0062.jpg; sourceTree = "<group>"; };
+		08DA5C8820102CF7008332F0 /* CAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAViewController.h; sourceTree = "<group>"; };
+		08DA5C8920102CF7008332F0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		08DA5C8A20102CF7008332F0 /* PCFadedImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCFadedImageView.h; sourceTree = "<group>"; };
+		08DA5C8B20102CF7008332F0 /* CAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAAppDelegate.m; sourceTree = "<group>"; };
+		08DA5C8C201034EF008332F0 /* UIImageColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageColors.swift; sourceTree = "<group>"; };
+		08DA5C9120105628008332F0 /* ColorsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +123,14 @@
 		085BF9972004FCF7008F3460 /* GunAR */ = {
 			isa = PBXGroup;
 			children = (
+				081D9B8720126F6000639667 /* Target.swift */,
+				081D9B8920126F6200639667 /* Bullet.swift */,
+				081D9B7F2011B54000639667 /* Classes */,
+				081D9B7A2011B3B600639667 /* SinglePlayer.swift */,
+				08DA5C9120105628008332F0 /* ColorsList.swift */,
+				08DA5C8C201034EF008332F0 /* UIImageColors.swift */,
 				085BF9982004FCF7008F3460 /* AppDelegate.swift */,
+				081D9B8520126E4B00639667 /* GameHelper.swift */,
 				08DA5C5B20093D21008332F0 /* PeripheralTableViewCell.swift */,
 				085BF9BC20086E33008F3460 /* PeripheralListViewController.swift */,
 				085BF99A2004FCF7008F3460 /* CameraSceneViewController.swift */,
@@ -92,6 +139,7 @@
 				085BF99F2004FCF7008F3460 /* Assets.xcassets */,
 				085BF9A12004FCF7008F3460 /* LaunchScreen.storyboard */,
 				085BF9A42004FCF7008F3460 /* Info.plist */,
+				08DA5C6D20102CF7008332F0 /* ColorArt */,
 			);
 			path = GunAR;
 			sourceTree = "<group>";
@@ -103,6 +151,47 @@
 				085BF9AF2004FCF7008F3460 /* Info.plist */,
 			);
 			path = GunARTests;
+			sourceTree = "<group>";
+		};
+		08DA5C6D20102CF7008332F0 /* ColorArt */ = {
+			isa = PBXGroup;
+			children = (
+				08DA5C6E20102CF7008332F0 /* LBGradient.h */,
+				08DA5C6F20102CF7008332F0 /* ColorArt-Prefix.pch */,
+				08DA5C7020102CF7008332F0 /* InfoPlist.strings */,
+				08DA5C7220102CF7008332F0 /* Credits.rtf */,
+				08DA5C7420102CF7008332F0 /* MainMenu.xib */,
+				08DA5C7620102CF7008332F0 /* CAViewController.xib */,
+				08DA5C7720102CF7008332F0 /* coffee.png */,
+				08DA5C7820102CF7008332F0 /* Classes */,
+				08DA5C7F20102CF7008332F0 /* Default@2x.png */,
+				08DA5C8020102CF7008332F0 /* CAViewController.m */,
+				08DA5C8120102CF7008332F0 /* CAAppDelegate.h */,
+				08DA5C8220102CF7008332F0 /* PCFadedImageView.m */,
+				08DA5C8320102CF7008332F0 /* Default-568h@2x.png */,
+				08DA5C8420102CF7008332F0 /* LBGradient.m */,
+				08DA5C8520102CF7008332F0 /* ColorArt-Info.plist */,
+				08DA5C8620102CF7008332F0 /* main.m */,
+				08DA5C8720102CF7008332F0 /* DSC_0062.jpg */,
+				08DA5C8820102CF7008332F0 /* CAViewController.h */,
+				08DA5C8920102CF7008332F0 /* Default.png */,
+				08DA5C8A20102CF7008332F0 /* PCFadedImageView.h */,
+				08DA5C8B20102CF7008332F0 /* CAAppDelegate.m */,
+			);
+			path = ColorArt;
+			sourceTree = "<group>";
+		};
+		08DA5C7820102CF7008332F0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				08DA5C7920102CF7008332F0 /* UIImage+Scale.h */,
+				08DA5C7A20102CF7008332F0 /* UIImage+ColorArt.h */,
+				08DA5C7B20102CF7008332F0 /* SLColorArt.h */,
+				08DA5C7C20102CF7008332F0 /* UIImage+Scale.m */,
+				08DA5C7D20102CF7008332F0 /* UIImage+ColorArt.m */,
+				08DA5C7E20102CF7008332F0 /* SLColorArt.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				085BF9A32004FCF7008F3460 /* LaunchScreen.storyboard in Resources */,
+				081D9B802011B54000639667 /* Classes in Resources */,
 				085BF9A02004FCF7008F3460 /* Assets.xcassets in Resources */,
 				085BF99E2004FCF7008F3460 /* Main.storyboard in Resources */,
 			);
@@ -209,10 +299,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				085BF99B2004FCF7008F3460 /* CameraSceneViewController.swift in Sources */,
+				08DA5C9220105628008332F0 /* ColorsList.swift in Sources */,
 				085BF9B920053A3F008F3460 /* StartingViewController.swift in Sources */,
 				085BF9992004FCF7008F3460 /* AppDelegate.swift in Sources */,
+				081D9B8820126F6000639667 /* Target.swift in Sources */,
+				08DA5C8D201034EF008332F0 /* UIImageColors.swift in Sources */,
+				081D9B8620126E4B00639667 /* GameHelper.swift in Sources */,
 				08DA5C5C20093D21008332F0 /* PeripheralTableViewCell.swift in Sources */,
+				081D9B7B2011B3B600639667 /* SinglePlayer.swift in Sources */,
 				085BF9BD20086E33008F3460 /* PeripheralListViewController.swift in Sources */,
+				081D9B8A20126F6200639667 /* Bullet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +345,30 @@
 				085BF9A22004FCF7008F3460 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		08DA5C7020102CF7008332F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08DA5C7120102CF7008332F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		08DA5C7220102CF7008332F0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08DA5C7320102CF7008332F0 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		08DA5C7420102CF7008332F0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08DA5C7520102CF7008332F0 /* en */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -14,6 +14,10 @@ var rxCharacteristic : CBCharacteristic?
 var blePeripheral : CBPeripheral?
 var characteristicASCIIValue = NSString()
 
+let kGunAR_UUID = ""
+let GunAR_UUID = CBUUID(string: kGunAR_UUID)
+var takeShot: Int! = 0
+
 
 class PeripheralListViewController: UITableViewController,
     CBCentralManagerDelegate,
@@ -47,8 +51,7 @@ class PeripheralListViewController: UITableViewController,
     var characteristicValue = [CBUUID: NSData]()
     var timer = Timer()
     var characteristics = [String : CBCharacteristic]()
-    var BLEService_UUID = 42
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -56,7 +59,7 @@ class PeripheralListViewController: UITableViewController,
         self.baseTableView.dataSource = self
         self.baseTableView.reloadData()
         
-        configureTableView()
+        //configureTableView()
         
         // Do any additional setup after loading the view.
         centralManager = CBCentralManager(delegate: self, queue: nil)
@@ -224,7 +227,9 @@ class PeripheralListViewController: UITableViewController,
         
         for characteristic in characteristics {
             //looks for the right characteristic
-            
+            if characteristic.uuid.isEqual(GunAR_UUID){
+                peripheral.setNotifyValue(true, for: characteristic)
+            }
             print("Characteristic: \(characteristic.uuid)")
             peripheral.discoverDescriptors(for: characteristic)
         }
@@ -277,7 +282,7 @@ class PeripheralListViewController: UITableViewController,
     
     func centralManager(_ central: CBCentralManager, didDisconnectPeripheral peripheral: CBPeripheral, error: Error?) {
         if error != nil{
-             print("ERROR: \(error)")
+             print("ERROR: \(error!)")
         }
        
         print("Disconnected")
