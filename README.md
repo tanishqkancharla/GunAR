@@ -5,6 +5,9 @@ GunAR is a game that replicates laser tag. It involves a gun and an app on the u
 # What it does
 GunAR, as we envisioned it, would consist of a set of guns. Each player is given a gun, and they load their phone into the holster. The phone has an app that connects to the gun through bluetooth and it uses data to detect positions of other players. When the trigger is pressed, the gun sends a signal to the phone, the phone determines using a raycast whether the "laser" landed in a bounding box around the position of the other phone. The phone app also has a single player mode where it shows enemies on the screen in Augmented Reality that you would shoot down to get points.
 
+# How to use
+To try our project, download the xcode project file. 
+
 # How we built it
 To build the app, we learned the basics of Swift. To implement the gun's technology, we used Raspberry Pi's. To connect through bluetooth to the phone, we also had to learn Javascript. Finally, for the hardware component, we designed and built a gun shell that had an adjustable holster to fit a phone and space for the RPi as well as a trigger.
 
